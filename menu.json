@@ -8,7 +8,7 @@
     "phone": "",
     "images": {
       "hero": "Adacezvem-dukkan.jpg",
-      "logo": "ada-cezvem-logo.jpg"
+      "logo": "Ada-cezvem-logo.jpg"
     }
   },
   "categories": [
@@ -19,8 +19,8 @@
       "image": "kategori-sicak.jpg",
       "items": [
         { "id": "turk-kahvesi",        "name": "Türk Kahvesi",         "price": 100, "image": "turk-kahvesi.jpg" },
-        { "id": "dibek-kahvesi",       "name": "Dibek Kahvesi",        "price": 100, "image": "dibek-kahvesi.jpg" },
-        { "id": "menengic-kahvesi",    "name": "Menengiç Kahvesi",     "price": 100, "image": "menengic-kahvesi.jpg" },
+        { "id": "dibek-kahvesi",       "name": "Dibek Kahvesi",        "price": 120, "image": "dibek-kahvesi.jpg" },
+        { "id": "menengic-kahvesi",    "name": "Menengiç Kahvesi",     "price": 120, "image": "menengic-kahvesi.jpg" },
         { "id": "sutlu-menengic",      "name": "Sütlü Menengiç Kahvesi","price": 120, "image": "sutlu-menengic.jpg" },
         { "id": "dibek-menengic",      "name": "Dibek Menengiç",       "price": 120, "image": "dibek-menengic.jpg" },
         { "id": "espresso",            "name": "Espresso",             "price": 100, "image": "espresso.jpg" },
