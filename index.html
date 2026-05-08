@@ -241,7 +241,7 @@ body {
   box-shadow: 0 3px 12px rgba(74,40,16,0.3);
 }
 
-.section-title-wrap {
+.section-title-wrap {}
 .section-eyebrow-sm {
   font-family: 'Cinzel', serif;
   font-size: 0.58rem;
@@ -256,7 +256,7 @@ body {
   color: var(--espresso);
   line-height: 1.1;
 }
-}
+
 /* Featured Bosna banner */
 .bosna-banner {
   margin: 0 1.2rem 0.5rem;
@@ -650,13 +650,18 @@ const ITEM_EMOJI = {
   'double-espresso':'☕','americano':'☕','filtre-kahve':'☕',
   'capuchino':'☕','latte':'☕','sutlu-americano':'☕',
   'sutlu-filtre':'☕','sicak-cikolata':'🍫','sahlep':'🌿',
+  'bosna-kahve':'🫘',
   'ice-latte':'🧋','ice-latte-cilekli':'🍓','ice-americano':'🧊',
   'ice-caramel-mac':'🧋','ice-filtre':'🧊','ice-mocha':'🍫',
   'ice-white-mocha':'🥛','frozen-orman':'🫐','frozen-cilekli':'🍓',
   'milkshake-cilekli':'🍓','milkshake-muzlu':'🍌','milkshake-cikolatali':'🍫',
-  'bosna-kahve':'🫘','cay':'🍵','fincan-cay':'🍵','bitki-cayi':'🌿',
-  'citir-cezvem':'🍮','magnolya':'🍮','mozaik-pasta':'🍫',
-  'tiramisu':'🍰','fanta-kutu':'🟠','fanta-sise':'🟠',
+  'cay':'🍵','fincan-cay':'🍵','bitki-cayi':'🌿',
+  'visneli-brownie':'🍒','magnolya':'🍮','citir-cezvem':'✨',
+  'brownie':'🍫','mozaik-pasta':'🍫','snickers-lezzeti':'🍫',
+  'karpatka-lezzeti':'🍰','redvelvet':'❤️','ibiza':'🌴',
+  'san-sebastian':'🍰','lotus-cheesecake':'🍪','ada-gold':'⭐',
+  'budapeste':'🍰','tiramisu':'🍰',
+  'fanta-kutu':'🟠','fanta-sise':'🟠',
   'kola-kutu':'🥤','kola-sise':'🥤','gazoz':'🫧',
   'meyveli-soda':'🫧','sade-soda':'🫧','churchill':'🥤',
   'su-kucuk':'💧','su-buyuk':'💧'
@@ -762,6 +767,8 @@ function renderSections() {
       `;
       cat.items.forEach(item => {
         const em = ITEM_EMOJI[item.id] || '☕';
+        const badgeHtml = item.badge ? `<span style="display:inline-block;font-family:'Cinzel',serif;font-size:0.52rem;letter-spacing:0.15em;color:var(--espresso);background:var(--gold);padding:0.1rem 0.45rem;border-radius:20px;margin-left:0.4rem;vertical-align:middle">${item.badge}</span>` : '';
+        const descHtml = item.desc ? `<div class="item-desc">${item.desc}</div>` : '';
         html += `
           <div class="item-row" onclick="openModal('${escQ(item.name)}','${item.price}','${escQ(item.image)}','${em}')">
             <div class="item-img-wrap">
@@ -769,7 +776,8 @@ function renderSections() {
               <span class="item-emoji">${em}</span>
             </div>
             <div class="item-info">
-              <div class="item-name">${item.name}</div>
+              <div class="item-name">${item.name}${badgeHtml}</div>
+              ${descHtml}
             </div>
             <div class="item-price">₺ ${item.price}</div>
           </div>
