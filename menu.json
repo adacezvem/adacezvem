@@ -1,0 +1,112 @@
+{
+  "restaurant": {
+    "name": "Ada Cezve'm",
+    "slogan": "Kahve & Lezzet",
+    "tagline": "Her yudumda bir ada, her fincanda bir hatıra...",
+    "address": "Bağlar, Yavuz Selim Cd. No:48/A, 54200 Erenler/Sakarya",
+    "hours": "10:30 – 00:00",
+    "phone": "",
+    "images": {
+      "hero": "Adacezvem-dukkan.jpg",
+      "logo": "ada-cezvem-logo.jpg"
+    }
+  },
+  "categories": [
+    {
+      "id": "sicak",
+      "label": "Sıcak İçecekler",
+      "icon": "☕",
+      "image": "kategori-sicak.jpg",
+      "items": [
+        { "id": "turk-kahvesi",        "name": "Türk Kahvesi",         "price": 100, "image": "turk-kahvesi.jpg" },
+        { "id": "dibek-kahvesi",       "name": "Dibek Kahvesi",        "price": 100, "image": "dibek-kahvesi.jpg" },
+        { "id": "menengic-kahvesi",    "name": "Menengiç Kahvesi",     "price": 100, "image": "menengic-kahvesi.jpg" },
+        { "id": "sutlu-menengic",      "name": "Sütlü Menengiç Kahvesi","price": 120, "image": "sutlu-menengic.jpg" },
+        { "id": "dibek-menengic",      "name": "Dibek Menengiç",       "price": 120, "image": "dibek-menengic.jpg" },
+        { "id": "espresso",            "name": "Espresso",             "price": 100, "image": "espresso.jpg" },
+        { "id": "double-espresso",     "name": "Double Espresso",      "price": 170, "image": "double-espresso.jpg" },
+        { "id": "americano",           "name": "Americano",            "price": 150, "image": "americano.jpg" },
+        { "id": "filtre-kahve",        "name": "Filtre Kahve",         "price": 150, "image": "filtre-kahve.jpg" },
+        { "id": "capuchino",           "name": "Capuchino",            "price": 160, "image": "capuchino.jpg" },
+        { "id": "latte",               "name": "Latte",                "price": 160, "image": "latte.jpg" },
+        { "id": "sutlu-americano",     "name": "Sütlü Americano",      "price": 170, "image": "sutlu-americano.jpg" },
+        { "id": "sutlu-filtre",        "name": "Sütlü Filtre Kahve",   "price": 170, "image": "sutlu-filtre.jpg" },
+        { "id": "sicak-cikolata",      "name": "Sıcak Çikolata",       "price": 150, "image": "sicak-cikolata.jpg" },
+        { "id": "sahlep",              "name": "Sahlep",               "price": 150, "image": "sahlep.jpg" }
+      ]
+    },
+    {
+      "id": "soguk",
+      "label": "Soğuk Kahveler",
+      "icon": "🧊",
+      "image": "kategori-soguk.jpg",
+      "items": [
+        { "id": "ice-latte",           "name": "Ice Latte",                        "price": 180, "image": "ice-latte.jpg" },
+        { "id": "ice-latte-cilekli",   "name": "Ice Latte (Çilekli)",              "price": 195, "image": "ice-latte-cilekli.jpg" },
+        { "id": "ice-americano",       "name": "Ice Americano",                    "price": 155, "image": "ice-americano.jpg" },
+        { "id": "ice-caramel-mac",     "name": "Ice Caramel Macchiato",            "price": 195, "image": "ice-caramel-macchiato.jpg" },
+        { "id": "ice-filtre",          "name": "Ice Filtre Kahve",                 "price": 155, "image": "ice-filtre.jpg" },
+        { "id": "ice-mocha",           "name": "Ice Mocha",                        "price": 195, "image": "ice-mocha.jpg" },
+        { "id": "ice-white-mocha",     "name": "Ice White Mocha",                  "price": 195, "image": "ice-white-mocha.jpg" },
+        { "id": "frozen-orman",        "name": "Frozen Orman Meyveli",             "price": 195, "image": "frozen-orman.jpg" },
+        { "id": "frozen-cilekli",      "name": "Frozen Çilekli",                   "price": 195, "image": "frozen-cilekli.jpg" },
+        { "id": "milkshake-cilekli",   "name": "Milkshake Çilekli",               "price": 195, "image": "milkshake-cilekli.jpg" },
+        { "id": "milkshake-muzlu",     "name": "Milkshake Muzlu",                 "price": 195, "image": "milkshake-muzlu.jpg" },
+        { "id": "milkshake-cikolatali","name": "Milkshake Çikolatalı",            "price": 195, "image": "milkshake-cikolatali.jpg" }
+      ]
+    },
+    {
+      "id": "bosna",
+      "label": "Bosna Usulü",
+      "icon": "🫘",
+      "image": "kategori-bosna.jpg",
+      "featured": true,
+      "badge": "YENİ",
+      "description": "Geleneksel Bosna usulü hazırlanmış telveli kahve, lokum ve su ile servis edilir.",
+      "items": [
+        { "id": "bosna-kahve", "name": "Bosna Usulü Kahve", "price": 120, "image": "bosna-kahve.jpg" }
+      ]
+    },
+    {
+      "id": "caylar",
+      "label": "Çaylar",
+      "icon": "🍵",
+      "image": "kategori-cay.jpg",
+      "items": [
+        { "id": "cay",          "name": "Çay",                                         "price": 40,  "image": "cay.jpg" },
+        { "id": "fincan-cay",   "name": "Fincan Çay",                                  "price": 70,  "image": "fincan-cay.jpg" },
+        { "id": "bitki-cayi",   "name": "Bitki Çayları (Adaçayı, Ihlamur, Nane-Limon)","price": 150, "image": "bitki-cayi.jpg" }
+      ]
+    },
+    {
+      "id": "tatlilar",
+      "label": "Tatlılar",
+      "icon": "🍰",
+      "image": "kategori-tatlilar.jpg",
+      "items": [
+        { "id": "citir-cezvem", "name": "Çıtır Cezvem",  "price": 220, "image": "citir-cezvem.jpg" },
+        { "id": "magnolya",     "name": "Magnolya",       "price": 145, "image": "magnolya.jpg" },
+        { "id": "mozaik-pasta", "name": "Mozaik Pasta",   "price": 200, "image": "mozaik-pasta.jpg" },
+        { "id": "tiramisu",     "name": "Tiramisu",       "price": 170, "image": "tiramisu.jpg" }
+      ]
+    },
+    {
+      "id": "soguk-icecekler",
+      "label": "Soğuk İçecekler",
+      "icon": "🥤",
+      "image": "kategori-soguk-icecek.jpg",
+      "items": [
+        { "id": "fanta-kutu",   "name": "Fanta Kutu",     "price": 80,  "image": "fanta-kutu.jpg" },
+        { "id": "fanta-sise",   "name": "Fanta Şişe",     "price": 50,  "image": "fanta-sise.jpg" },
+        { "id": "kola-kutu",    "name": "Kola Kutu",      "price": 80,  "image": "kola-kutu.jpg" },
+        { "id": "kola-sise",    "name": "Kola Şişe",      "price": 50,  "image": "kola-sise.jpg" },
+        { "id": "gazoz",        "name": "Gazoz",          "price": 50,  "image": "gazoz.jpg" },
+        { "id": "meyveli-soda", "name": "Meyveli Soda",   "price": 50,  "image": "meyveli-soda.jpg" },
+        { "id": "sade-soda",    "name": "Sade Soda",      "price": 35,  "image": "sade-soda.jpg" },
+        { "id": "churchill",    "name": "Churchill",      "price": 75,  "image": "churchill.jpg" },
+        { "id": "su-kucuk",     "name": "Su (Küçük)",     "price": 10,  "image": "su.jpg" },
+        { "id": "su-buyuk",     "name": "Su (Büyük)",     "price": 20,  "image": "su.jpg" }
+      ]
+    }
+  ]
+}
