@@ -306,12 +306,6 @@
           "price": 280,
           "image": "budapeste.jpg"
         },
-        {
-          "id": "tiramisu",
-          "name": "Tiramisu",
-          "price": 170,
-          "image": "tiramisu.jpg"
-        }
       ]
     },
     {
