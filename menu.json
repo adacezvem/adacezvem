@@ -25,13 +25,13 @@
         {
           "id": "dibek-kahvesi",
           "name": "Dibek Kahvesi",
-          "price": 100,
+          "price": 120,
           "image": "dibek-kahvesi.jpg"
         },
         {
           "id": "menengic-kahvesi",
           "name": "Menengiç Kahvesi",
-          "price": 100,
+          "price": 120,
           "image": "menengic-kahvesi.jpg"
         },
         {
