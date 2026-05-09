@@ -761,7 +761,7 @@ function renderSections() {
         <div class="items-list">
       `;
       cat.items.forEach(item => {
-        const em = ITEM_EMOJI[item.id] || '☕';
+        const em = ITEM_EMOJI[item.id] || '';
         const badgeHtml = item.badge ? `<span style="display:inline-block;font-family:'Cinzel',serif;font-size:0.52rem;letter-spacing:0.15em;color:var(--espresso);background:var(--gold);padding:0.1rem 0.45rem;border-radius:20px;margin-left:0.4rem;vertical-align:middle">${item.badge}</span>` : '';
         const descHtml = item.desc ? `<div class="item-desc">${item.desc}</div>` : '';
         html += `
