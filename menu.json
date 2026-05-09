@@ -109,10 +109,10 @@
           "image": "sicak-cikolata.jpg"
         },
         {
-          "id": "sahlep",
-          "name": "Sahlep",
+          "id": "salep",
+          "name": "Salep",
           "price": 150,
-          "image": "sahlep.jpg"
+          "image": "salep.jpg"
         }
       ]
     },
@@ -235,10 +235,10 @@
           "image": "visneli-brownie.jpg"
         },
         {
-          "id": "magnolya",
-          "name": "Magnolya",
+          "id": "magnolia",
+          "name": "Magnolia",
           "price": 145,
-          "image": "magnolya.jpg"
+          "image": "magnolia.jpg"
         },
         {
           "id": "citir-cezvem",
