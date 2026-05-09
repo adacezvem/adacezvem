@@ -666,7 +666,7 @@ let menuData = null;
 
 async function loadMenu() {
   try {
-    const res = await fetch('menu.json');
+    const res = await fetch('./menu.json');
     menuData = await res.json();
   } catch(e) {
     // fallback inline data if fetch fails
