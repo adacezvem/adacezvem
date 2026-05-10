@@ -25,26 +25,14 @@
         {
           "id": "dibek-kahvesi",
           "name": "Dibek Kahvesi",
-          "price": 100,
+          "price": 120,
           "image": "dibek-kahvesi.jpg"
         },
         {
           "id": "menengic-kahvesi",
           "name": "Menengiç Kahvesi",
-          "price": 100,
+          "price": 120,
           "image": "menengic-kahvesi.jpg"
-        },
-        {
-          "id": "sutlu-menengic",
-          "name": "Sütlü Menengiç Kahvesi",
-          "price": 120,
-          "image": "sutlu-menengic.jpg"
-        },
-        {
-          "id": "dibek-menengic",
-          "name": "Dibek Menengiç",
-          "price": 120,
-          "image": "dibek-menengic.jpg"
         },
         {
           "id": "bosna-kahve",
