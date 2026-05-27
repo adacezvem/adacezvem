@@ -17,12 +17,6 @@
       "image": "kategori-sicak.jpg",
       "items": [
         {
-          "id": "turk-kahvesi",
-          "name": "Türk Kahvesi",
-          "price": 100,
-          "image": "turk-kahvesi.jpg"
-        },
-        {
           "id": "dibek-kahvesi",
           "name": "Dibek Kahvesi",
           "price": 120,
