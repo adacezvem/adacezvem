@@ -247,12 +247,6 @@
           "image": "snickers-lezzeti.jpg"
         },
         {
-          "id": "karpatka-lezzeti",
-          "name": "Karpatka Lezzeti",
-          "price": 275,
-          "image": "karpatka-lezzeti.jpg"
-        },
-        {
           "id": "redvelvet",
           "name": "Redvelvet",
           "price": 275,
