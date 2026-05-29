@@ -341,13 +341,13 @@
         {
           "id": "su-kucuk",
           "name": "Su (Küçük)",
-          "price": 10,
+          "price": 20,
           "image": "su.jpg"
         },
         {
           "id": "su-buyuk",
           "name": "Su (Büyük)",
-          "price": 20,
+          "price": 30,
           "image": "su.jpg"
         }
       ]
