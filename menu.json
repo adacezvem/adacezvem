@@ -345,9 +345,9 @@
           "image": "churchill.jpg"
         },
         {
-          "id": "su-kucuk",
-          "name": "Su (Küçük)",
-          "price": 20,
+          "id": "bardak-su",
+          "name": "Bardak Su",
+          "price": 10,
           "image": "su.jpg"
         },
         {
