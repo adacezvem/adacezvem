@@ -303,22 +303,16 @@
           "image": "fanta-kutu.jpg"
         },
         {
-          "id": "fanta-sise",
-          "name": "Fanta Şişe",
-          "price": 50,
-          "image": "fanta-sise.jpg"
-        },
-        {
           "id": "kola-kutu",
           "name": "Kola Kutu",
           "price": 80,
           "image": "kola-kutu.jpg"
         },
         {
-          "id": "kola-sise",
-          "name": "Kola Şişe",
+          "id": "kola-cam-sise",
+          "name": "Kola Cam Şişe",
           "price": 50,
-          "image": "kola-sise.jpg"
+          "image": "kola-cam-sise.jpg"
         },
         {
           "id": "gazoz",
