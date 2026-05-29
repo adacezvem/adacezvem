@@ -67,6 +67,12 @@
           "image": "capuchino.jpg"
         },
         {
+          "id": "flat white",
+          "name": "Flat White",
+          "price": 185,
+          "image": "flat-white.jpg"
+        },
+        {
           "id": "latte",
           "name": "Latte",
           "price": 160,
