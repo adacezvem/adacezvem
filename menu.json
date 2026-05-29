@@ -333,10 +333,10 @@
           "image": "meyveli-soda.jpg"
         },
         {
-          "id": "sade-soda",
-          "name": "Sade Soda",
-          "price": 35,
-          "image": "sade-soda.jpg"
+          "id": "premium-sade-soda",
+          "name": "Premium Sade Soda",
+          "price": 50,
+          "image": "premium-sade-soda.jpg"
         },
         {
           "id": "churchill",
