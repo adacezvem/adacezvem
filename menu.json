@@ -339,6 +339,18 @@
           "image": "churchill.jpg"
         },
         {
+          "id": "limonata",
+          "name": "Limonata",
+          "price": 70,
+          "image": "limonata.jpg"
+        },
+        {
+          "id": "cilekli-limonata",
+          "name": "Çilekli Limonata",
+          "price": 85,
+          "image": "limonata.jpg"
+        },
+        {
           "id": "bardak-su",
           "name": "Bardak Su",
           "price": 10,
