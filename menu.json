@@ -277,10 +277,28 @@
           "image": "lotus-cheesecake.jpg"
         },
         {
+          "id": "limonlu-cheesecake",
+          "name": "Limonlu Cheesecake",
+          "price": 280,
+          "image": "limon-cheesecake.jpg"
+        },
+        {
           "id": "ada-gold",
           "name": "Ada Gold",
           "price": 285,
           "image": "ada-gold.jpg"
+        },
+        {
+          "id": "uludag",
+          "name": "Uludağ",
+          "price": 285,
+          "image": "uludag.jpg"
+        },
+        {
+          "id": "lime",
+          "name": "Lime",
+          "price": 285,
+          "image": "lime.jpg"
         },
         {
           "id": "budapeste",
@@ -348,7 +366,7 @@
           "id": "cilekli-limonata",
           "name": "Çilekli Limonata",
           "price": 85,
-          "image": "limonata.jpg"
+          "image": "cilekli-limonata.jpg"
         },
         {
           "id": "bardak-su",
