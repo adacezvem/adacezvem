@@ -65,30 +65,35 @@
           "name": "Capuchino",
           "price": 160,
           "image": "capuchino.jpg"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
         },
         {
           "id": "flat-white",
           "name": "Flat White",
           "price": 185,
           "image": "flat-white.jpg"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
         },
         {
           "id": "latte",
           "name": "Latte",
           "price": 160,
           "image": "latte.jpg"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
         },
         {
           "id": "sutlu-americano",
           "name": "Sütlü Americano",
           "price": 170,
           "image": "sutlu-americano.jpg"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
         },
         {
           "id": "sutlu-filtre",
           "name": "Sütlü Filtre Kahve",
           "price": 170,
           "image": "sutlu-filtre.jpg"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
         },
         {
           "id": "sicak-cikolata",
@@ -115,24 +120,28 @@
           "name": "Ice Latte",
           "price": 180,
           "image": "ice-latte.jpg"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
         },
         {
           "id": "ice-latte-cilekli",
           "name": "Ice Latte (Çilekli)",
           "price": 195,
           "image": "ice-latte-cilekli.jpg"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
         },
         {
           "id": "ice-latte-karamel",
           "name": "Ice Latte (Karamelli)",
           "price": 195,
           "image": "ice-latte-karamelli.jpg"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
         },
         {
           "id": "ice-latte-vanilya",
           "name": "Ice Latte (Vanilyalı)",
           "price": 195,
           "image": "ice-latte-vanilyali.jpg"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
         },
         {
           "id": "ice-americano",
@@ -145,6 +154,7 @@
           "name": "Ice Caramel Macchiato",
           "price": 195,
           "image": "ice-caramel-macchiato.jpg"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
         },
         {
           "id": "ice-filtre",
@@ -157,12 +167,14 @@
           "name": "Ice Mocha",
           "price": 195,
           "image": "ice-mocha.jpg"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
         },
         {
           "id": "ice-white-mocha",
           "name": "Ice White Mocha",
           "price": 195,
           "image": "ice-white-mocha.jpg"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
         }
       ]
     },
