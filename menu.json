@@ -179,6 +179,12 @@
           "image": "frozen-cilekli.jpg"
         },
         {
+          "id": "frozen-mango",
+          "name": "Frozen Mangolu",
+          "price": 195,
+          "image": "frozen-mango.jpg"
+        },
+        {
           "id": "milkshake-cilekli",
           "name": "Milkshake Çilekli",
           "price": 195,
