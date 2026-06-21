@@ -161,10 +161,10 @@
       ]
     },
     {
-      "id": "frozen-milkshake",
-      "label": "Frozen & Milkshake",
+      "id": "frozen-milkshake-kokteyl",
+      "label": "Frozen & Milkshake & Kokteyl",
       "icon": "🥤",
-      "image": "kategori-frozen-milkshake.jpg",
+      "image": "kategori-frozen-milkshake-kokteyl.jpg",
       "items": [
         {
           "id": "frozen-orman",
