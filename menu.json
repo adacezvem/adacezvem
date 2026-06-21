@@ -201,6 +201,24 @@
           "name": "Milkshake Çikolatalı",
           "price": 195,
           "image": "milkshake-cikolatali.jpg"
+        },
+        {
+          "id": "soguk-meyve-kokteyl-cilekli",
+          "name": "Soğuk Meyve Kokteyl (Çilekli)",
+          "price": 150,
+          "image": "cilekli-kokteyl.jpg"
+        },
+        {
+          "id": "soguk-meyve-kokteyl-mangolu",
+          "name": "Soğuk Meyve Kokteyl (Mangolu)",
+          "price": 150,
+          "image": "mongolu-kokteyl.jpg"
+        },
+        {
+          "id": "soguk-meyve-kokteyl-orman-meyveli",
+          "name": "Soğuk Meyve Kokteyl (Orman Meyveli)",
+          "price": 150,
+          "image": "orman-meyveli-kokteyl.jpg"
         }
       ]
     },
