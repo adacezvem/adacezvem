@@ -357,6 +357,12 @@
           "image": "lime.jpg"
         },
         {
+          "id": "meyveli-rulo-pasta",
+          "name": "Meyveli Rulo Pasta",
+          "price": 280,
+          "image": "meyveli-rulo-pasta.jpg"
+        },
+        {
           "id": "budapeste",
           "name": "Budapeşte",
           "price": 280,
