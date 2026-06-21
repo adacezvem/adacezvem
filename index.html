@@ -649,10 +649,16 @@ async function loadMenu() {
 }
 
 function renderAll() {
+  if (!menuData.categories || menuData.categories.length === 0) {
+    document.getElementById('menuBody').innerHTML =
+      '<h2 style="padding:20px;text-align:center">Menü yüklenemedi</h2>';
+    return;
+  }
+
   renderCategories();
   renderSections();
   activateCategory(menuData.categories[0].id);
-  // Hero bg
+
   const bg = document.getElementById('heroBg');
   bg.classList.add('loaded');
 }
