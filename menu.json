@@ -129,6 +129,12 @@
           "image": "ice-latte-karamelli.jpg"
         },
         {
+          "id": "ice-latte-vanilya",
+          "name": "Ice Latte (Vanilyalı)",
+          "price": 195,
+          "image": "ice-latte-vanilyali.jpg"
+        },
+        {
           "id": "ice-americano",
           "name": "Ice Americano",
           "price": 155,
