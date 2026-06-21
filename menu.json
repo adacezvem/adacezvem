@@ -157,36 +157,6 @@
           "name": "Ice White Mocha",
           "price": 195,
           "image": "ice-white-mocha.jpg"
-        },
-        {
-          "id": "frozen-orman",
-          "name": "Frozen Orman Meyveli",
-          "price": 195,
-          "image": "frozen-orman.jpg"
-        },
-        {
-          "id": "frozen-cilekli",
-          "name": "Frozen Çilekli",
-          "price": 195,
-          "image": "frozen-cilekli.jpg"
-        },
-        {
-          "id": "milkshake-cilekli",
-          "name": "Milkshake Çilekli",
-          "price": 195,
-          "image": "milkshake-cilekli.jpg"
-        },
-        {
-          "id": "milkshake-muzlu",
-          "name": "Milkshake Muzlu",
-          "price": 195,
-          "image": "milkshake-muzlu.jpg"
-        },
-        {
-          "id": "milkshake-cikolatali",
-          "name": "Milkshake Çikolatalı",
-          "price": 195,
-          "image": "milkshake-cikolatali.jpg"
         }
       ]
     },
