@@ -191,6 +191,44 @@
       ]
     },
     {
+      "id": "frozen-milkshake",
+      "label": "Frozen & Milkshake",
+      "icon": "🥤",
+      "image": "kategori-frozen-milkshake.jpg",
+      "items": [
+        {
+          "id": "frozen-orman",
+          "name": "Frozen Orman Meyveli",
+          "price": 195,
+          "image": "frozen-orman.jpg"
+        },
+        {
+          "id": "frozen-cilekli",
+          "name": "Frozen Çilekli",
+          "price": 195,
+          "image": "frozen-cilekli.jpg"
+        },
+        {
+          "id": "milkshake-cilekli",
+          "name": "Milkshake Çilekli",
+          "price": 195,
+          "image": "milkshake-cilekli.jpg"
+        },
+        {
+          "id": "milkshake-muzlu",
+          "name": "Milkshake Muzlu",
+          "price": 195,
+          "image": "milkshake-muzlu.jpg"
+        },
+        {
+          "id": "milkshake-cikolatali",
+          "name": "Milkshake Çikolatalı",
+          "price": 195,
+          "image": "milkshake-cikolatali.jpg"
+        }
+      ]
+    },
+    {
       "id": "caylar",
       "label": "Çaylar",
       "icon": "🍵",
