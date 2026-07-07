@@ -402,7 +402,13 @@
         },
         {
           "id": "meyveli-soda",
-          "name": "Meyveli Soda",
+          "name": "Meyveli Soda(Limonlu-Karpuz Çilek)",
+          "price": 50,
+          "image": "meyveli-soda.jpg"
+        },
+        {
+          "id": "soda",
+          "name": "Meyveli Soda(Greyfurt Yaban Mersini-Karadut-Mango Ananas-Kivi Limon)",
           "price": 50,
           "image": "meyveli-soda.jpg"
         },
@@ -427,7 +433,7 @@
         {
           "id": "cilekli-limonata",
           "name": "Çilekli Limonata",
-          "price": 85,
+          "price": 100,
           "image": "cilekli-limonata.jpg"
         },
         {
