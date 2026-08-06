@@ -425,6 +425,12 @@
           "image": "churchill.jpg"
         },
         {
+          "id": "redbull",
+          "name": "Redbull",
+          "price": 100,
+          "image": "Redbull.jpg"
+        },
+        {
           "id": "limonata",
           "name": "Limonata",
           "price": 85,
