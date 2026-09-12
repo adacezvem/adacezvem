@@ -169,7 +169,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.7rem;
   transition: border-color 0.25s, box-shadow 0.25s;
   position: relative;
 }
@@ -180,10 +179,15 @@ body {
   position: absolute; inset: 0;
 }
 
-.cat-circle .cat-emoji {
-  position: relative;
-  z-index: 1;
-  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+/* Fotoğrafların daire içinde daha derin durması için iç gölge */
+.cat-circle::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  box-shadow: inset 0 0 18px rgba(28,15,8,0.45);
+  pointer-events: none;
+  z-index: 2;
 }
 
 .cat-item.active .cat-circle {
@@ -193,16 +197,21 @@ body {
 
 .cat-label {
   font-family: 'Cinzel', serif;
-  font-size: 0.6rem;
-  letter-spacing: 0.1em;
-  color: var(--smoke);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--parchment);
   text-align: center;
   text-transform: uppercase;
-  max-width: 68px;
-  line-height: 1.3;
+  max-width: 84px;
+  line-height: 1.25;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.55);
   transition: color 0.25s;
 }
-.cat-item.active .cat-label { color: var(--gold-light); }
+.cat-item.active .cat-label {
+  color: var(--gold-light);
+  font-weight: 700;
+}
 
 /* ═══════════════════════════════
    MENU BODY
@@ -236,9 +245,15 @@ body {
   border-radius: 50%;
   background: linear-gradient(135deg, var(--wood), var(--mid-wood));
   display: flex; align-items: center; justify-content: center;
-  font-size: 1.3rem;
   flex-shrink: 0;
+  overflow: hidden;
   box-shadow: 0 3px 12px rgba(74,40,16,0.3);
+}
+
+.section-icon-wrap img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .section-title-wrap {}
@@ -275,10 +290,7 @@ body {
   background-size: cover;
   background-position: center;
   background-color: var(--mid-wood);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
+  position: relative;
 }
 
 .bosna-content {
@@ -351,7 +363,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.8rem;
   border: 1px solid rgba(201,148,58,0.15);
   position: relative;
 }
@@ -361,11 +372,6 @@ body {
   object-fit: cover;
   position: absolute; inset: 0;
   border-radius: 10px;
-}
-
-.item-img-wrap .item-emoji {
-  position: relative;
-  z-index: 1;
 }
 
 .item-info { flex: 1; min-width: 0; }
@@ -542,7 +548,6 @@ body {
   object-fit: contain;
   border-radius: 10px;
 }
-.modal-img-area .modal-emoji { font-size: 6rem; }
 .modal-img-grad { display: none; }
 
 .modal-body {
@@ -594,6 +599,7 @@ body {
   .item-row { padding: 0.9rem 2rem; }
   .item-img-wrap { width: 68px; height: 68px; }
   .cat-circle { width: 76px; height: 76px; }
+  .cat-label { font-size: 0.78rem; max-width: 96px; }
 }
 </style>
 </head>
@@ -636,7 +642,6 @@ body {
   <div class="modal-sheet">
     <div class="drag-handle"></div>
     <div class="modal-img-area" id="modalImg">
-      <span class="modal-emoji" id="modalEmoji"></span>
       <div class="modal-img-grad"></div>
     </div>
     <div class="modal-body">
@@ -648,15 +653,8 @@ body {
 </div>
 
 <script>
-// ── Category emoji fallbacks ──
-const CAT_EMOJI = {
-  sicak: '☕', soguk: '🧊', 'frozen-milkshake-kokteyl': '🥤',
-  caylar: '🍵', tatlilar: '🍰', 'soguk-icecekler': '🥤'
-};
-
-// ── Item emoji fallbacks ──
-const ITEM_EMOJI = {
-};
+// ── Bilgi sekmesinin daire görseli ──
+const INFO_IMAGE = 'kategori/bilgi.jpg';
 
 let menuData = null;
 
@@ -698,17 +696,15 @@ function renderCategories() {
     const circle = document.createElement('div');
     circle.className = 'cat-circle';
 
-    // Try image, fallback emoji
-    const img = document.createElement('img');
-    img.src = cat.image;
-    img.onerror = () => { img.style.display='none'; emoji.style.display=''; };
-    const emoji = document.createElement('span');
-    emoji.className = 'cat-emoji';
-    emoji.textContent = cat.icon || CAT_EMOJI[cat.id] || '☕';
-    emoji.style.display = 'none';
-    img.onload = () => { emoji.style.display='none'; };
-    circle.appendChild(img);
-    circle.appendChild(emoji);
+    // Kategori görseli
+    if (cat.image) {
+      const img = document.createElement('img');
+      img.src = cat.image;
+      img.alt = cat.label || '';
+      img.loading = 'lazy';
+      img.onerror = () => img.remove();
+      circle.appendChild(img);
+    }
 
     const label = document.createElement('div');
     label.className = 'cat-label';
@@ -732,16 +728,15 @@ function renderSections() {
     if (cat.featured && cat.items.length === 1) {
       section.innerHTML = `
         <div class="section-header">
-          <div class="section-icon-wrap">${cat.icon}</div>
+          <div class="section-icon-wrap">${catIconHtml(cat)}</div>
           <div class="section-title-wrap">
             <div class="section-eyebrow-sm">Özel Servis</div>
             <div class="section-name">${cat.label}</div>
           </div>
         </div>
-        <div class="bosna-banner" onclick="openModal('${cat.items[0].name}','${cat.items[0].price}','${cat.items[0].image}','${ITEM_EMOJI[cat.items[0].id]||'🫘'}')">
+        <div class="bosna-banner" onclick="openModal('${escQ(cat.items[0].name)}','${cat.items[0].price}','${escQ(cat.items[0].image)}')">
           <div class="bosna-img">
             <img src="${cat.items[0].image}" onerror="this.style.display='none'" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;" />
-            <span style="position:relative;z-index:1;font-size:3.5rem">${ITEM_EMOJI[cat.items[0].id]||'🫘'}</span>
           </div>
           <div class="bosna-content">
             ${cat.badge ? `<span class="bosna-badge">${cat.badge}</span>` : ''}
@@ -754,7 +749,7 @@ function renderSections() {
     } else {
       let html = `
         <div class="section-header">
-          <div class="section-icon-wrap">${cat.icon}</div>
+          <div class="section-icon-wrap">${catIconHtml(cat)}</div>
           <div class="section-title-wrap">
             <div class="section-eyebrow-sm">Ada Cezve'm</div>
             <div class="section-name">${cat.label}</div>
@@ -763,7 +758,6 @@ function renderSections() {
         <div class="items-list">
       `;
       cat.items.forEach(item => {
-        const em = ITEM_EMOJI[item.id] || '';
         const badgeHtml = item.badge ? `<span style="display:inline-block;font-family:'Cinzel',serif;font-size:0.52rem;letter-spacing:0.15em;color:var(--espresso);background:var(--gold);padding:0.1rem 0.45rem;border-radius:20px;margin-left:0.4rem;vertical-align:middle">${item.badge}</span>` : '';
         const descHtml = item.desc ? `<div class="item-desc">${item.desc}</div>` : '';
 
@@ -783,10 +777,9 @@ function renderSections() {
         }
 
         html += `
-          <div class="item-row" onclick="openModal('${escQ(item.name)}','${item.price}','${escQ(item.image)}','${em}')">
+          <div class="item-row" onclick="openModal('${escQ(item.name)}','${item.price}','${escQ(item.image)}')">
             <div class="item-img-wrap">
-              <img src="${escQ(item.image)}" onerror="this.style.display='none'" />
-              <span class="item-emoji">${em}</span>
+              ${item.image ? `<img src="${escQ(item.image)}" alt="${escQ(item.name)}" loading="lazy" onerror="this.style.display='none'" />` : ''}
             </div>
             <div class="item-info">
               <div class="item-name">${item.name}${badgeHtml}</div>
@@ -809,7 +802,7 @@ function renderSections() {
   info.id = 'section-info';
   info.innerHTML = `
     <div class="section-header">
-      <div class="section-icon-wrap">ℹ️</div>
+      <div class="section-icon-wrap"><img src="${INFO_IMAGE}" alt="Bilgi" onerror="this.remove()" /></div>
       <div class="section-title-wrap">
         <div class="section-eyebrow-sm">Bizi Tanıyın</div>
         <div class="section-name">Ada Cezve'm</div>
@@ -866,7 +859,7 @@ function addInfoCat() {
   div.id = 'cat-info';
   div.onclick = () => activateCategory('info');
   div.innerHTML = `
-    <div class="cat-circle"><span class="cat-emoji">ℹ️</span></div>
+    <div class="cat-circle"><img src="${INFO_IMAGE}" alt="Bilgi" loading="lazy" onerror="this.remove()" /></div>
     <div class="cat-label">Bilgi</div>
   `;
   scroll.appendChild(div);
@@ -876,11 +869,16 @@ function escQ(s) {
   return String(s).replace(/'/g, "\\'");
 }
 
+// Bölüm başlığındaki yuvarlak kategori görseli
+function catIconHtml(cat) {
+  if (!cat.image) return '';
+  return `<img src="${escQ(cat.image)}" alt="${escQ(cat.label||'')}" loading="lazy" onerror="this.remove()" />`;
+}
+
 // Modal
-function openModal(name, price, imgSrc, emoji) {
+function openModal(name, price, imgSrc) {
   document.getElementById('modalName').textContent = name;
   document.getElementById('modalPrice').textContent = '₺ ' + price;
-  document.getElementById('modalEmoji').textContent = emoji;
   const imgEl = document.getElementById('modalImg');
   // Remove old img if any
   imgEl.querySelectorAll('img').forEach(i=>i.remove());
