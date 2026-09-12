@@ -54,48 +54,132 @@
           "id": "americano",
           "name": "Americano",
           "price": 150,
-          "image": "americano.jpg"
+          "image": "americano.jpg",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "filtre-kahve",
           "name": "Filtre Kahve",
           "price": 150,
-          "image": "filtre-kahve.jpg"
+          "image": "filtre-kahve.jpg",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "capuchino",
           "name": "Capuchino",
           "price": 160,
           "image": "capuchino.jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "flat-white",
           "name": "Flat White",
           "price": 185,
           "image": "flat-white.jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "latte",
           "name": "Latte",
           "price": 160,
           "image": "latte.jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "sutlu-americano",
           "name": "Sütlü Americano",
           "price": 170,
           "image": "sutlu-americano.jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "sutlu-filtre",
           "name": "Sütlü Filtre Kahve",
           "price": 170,
           "image": "sutlu-filtre.jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "sicak-cikolata",
@@ -122,42 +206,114 @@
           "name": "Ice Latte",
           "price": 180,
           "image": "ice-latte.jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "ice-latte-cilekli",
           "name": "Ice Latte (Çilekli)",
           "price": 195,
           "image": "ice-latte-cilekli.jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "ice-latte-antepli",
           "name": "Ice Latte (Antep Fıstıklı)",
           "price": 210,
           "image": "ice-latte-antepli.jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "ice-latte-portakallı",
           "name": "Ice Latte (Portakal Sulu)",
           "price": 210,
           "image": "ice-latte-portakallı .jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "ice-latte-karamel",
           "name": "Ice Latte (Karamelli)",
           "price": 195,
           "image": "ice-latte-karamelli.jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "ice-latte-vanilya",
           "name": "Ice Latte (Vanilyalı)",
           "price": 195,
           "image": "ice-latte-vanilyali.jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "ice-americano",
@@ -182,27 +338,75 @@
           "name": "Ice Caramel Macchiato",
           "price": 195,
           "image": "ice-caramel-macchiato.jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "ice-filtre",
           "name": "Ice Filtre Kahve",
           "price": 155,
-          "image": "ice-filtre.jpg"
+          "image": "ice-filtre.jpg",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "ice-mocha",
           "name": "Ice Mocha",
           "price": 195,
           "image": "ice-mocha.jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "ice-white-mocha",
           "name": "Ice White Mocha",
           "price": 195,
           "image": "ice-white-mocha.jpg",
-          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         }
       ]
     },
