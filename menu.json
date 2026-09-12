@@ -13,399 +13,160 @@
     {
       "id": "sicak",
       "label": "Sıcak İçecekler",
-      "icon": "☕",
       "image": "kategori-sicak.jpg",
       "items": [
+        { "id": "dibek-kahvesi", "name": "Dibek Kahvesi", "price": 120, "image": "dibek-kahvesi.jpg", "desc": "Telveli kahve, lokum ve su ile servis edilir" },
+        { "id": "menengic-kahvesi", "name": "Menengiç Kahvesi", "price": 120, "image": "menengic-kahvesi.jpg", "desc": "Telveli kahve, lokum ve su ile servis edilir" },
+        { "id": "bosna-kahve", "name": "Bosna Usulü Kahve", "price": 120, "image": "bosna-kahve.jpg", "badge": "YENİ", "desc": "Telveli kahve, lokum ve su ile servis edilir" },
+        { "id": "espresso", "name": "Espresso", "price": 100, "image": "espresso.jpg" },
+        { "id": "double-espresso", "name": "Double Espresso", "price": 170, "image": "double-espresso.jpg" },
         {
-          "id": "dibek-kahvesi",
-          "name": "Dibek Kahvesi",
-          "price": 120,
-          "image": "dibek-kahvesi.jpg",
-          "desc": "Telveli kahve, lokum ve su ile servis edilir"
-        },
-        {
-          "id": "menengic-kahvesi",
-          "name": "Menengiç Kahvesi",
-          "price": 120,
-          "image": "menengic-kahvesi.jpg",
-          "desc": "Telveli kahve, lokum ve su ile servis edilir"
-        },
-        {
-          "id": "bosna-kahve",
-          "name": "Bosna Usulü Kahve",
-          "price": 120,
-          "image": "bosna-kahve.jpg",
-          "badge": "YENİ",
-          "desc": "Telveli kahve, lokum ve su ile servis edilir"
-        },
-        {
-          "id": "espresso",
-          "name": "Espresso",
-          "price": 100,
-          "image": "espresso.jpg"
-        },
-        {
-          "id": "double-espresso",
-          "name": "Double Espresso",
-          "price": 170,
-          "image": "double-espresso.jpg"
-        },
-        {
-          "id": "americano",
-          "name": "Americano",
-          "price": 150,
-          "image": "americano.jpg",
+          "id": "americano", "name": "Americano", "price": 150, "image": "americano.jpg",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "filtre-kahve",
-          "name": "Filtre Kahve",
-          "price": 150,
-          "image": "filtre-kahve.jpg",
+          "id": "filtre-kahve", "name": "Filtre Kahve", "price": 150, "image": "filtre-kahve.jpg",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "capuchino",
-          "name": "Capuchino",
-          "price": 160,
-          "image": "capuchino.jpg",
+          "id": "capuchino", "name": "Capuchino", "price": 160, "image": "capuchino.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "flat-white",
-          "name": "Flat White",
-          "price": 185,
-          "image": "flat-white.jpg",
+          "id": "flat-white", "name": "Flat White", "price": 185, "image": "flat-white.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "latte",
-          "name": "Latte",
-          "price": 160,
-          "image": "latte.jpg",
+          "id": "latte", "name": "Latte", "price": 160, "image": "latte.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "sutlu-americano",
-          "name": "Sütlü Americano",
-          "price": 170,
-          "image": "sutlu-americano.jpg",
+          "id": "sutlu-americano", "name": "Sütlü Americano", "price": 170, "image": "sutlu-americano.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "sutlu-filtre",
-          "name": "Sütlü Filtre Kahve",
-          "price": 170,
-          "image": "sutlu-filtre.jpg",
+          "id": "sutlu-filtre", "name": "Sütlü Filtre Kahve", "price": 170, "image": "sutlu-filtre.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
-        {
-          "id": "sicak-cikolata",
-          "name": "Sıcak Çikolata",
-          "price": 150,
-          "image": "sicak-cikolata.jpg"
-        },
-        {
-          "id": "sahlep",
-          "name": "Sahlep",
-          "price": 150,
-          "image": "sahlep.jpg"
-        }
+        { "id": "sicak-cikolata", "name": "Sıcak Çikolata", "price": 150, "image": "sicak-cikolata.jpg" },
+        { "id": "sahlep", "name": "Sahlep", "price": 150, "image": "sahlep.jpg" }
       ]
     },
     {
       "id": "soguk",
       "label": "Soğuk Kahveler",
-      "icon": "🧊",
       "image": "kategori-soguk.jpg",
       "items": [
         {
-          "id": "ice-latte",
-          "name": "Ice Latte",
-          "price": 180,
-          "image": "ice-latte.jpg",
+          "id": "ice-latte", "name": "Ice Latte", "price": 180, "image": "ice-latte.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "ice-latte-cilekli",
-          "name": "Ice Latte (Çilekli)",
-          "price": 195,
-          "image": "ice-latte-cilekli.jpg",
+          "id": "ice-latte-cilekli", "name": "Ice Latte (Çilekli)", "price": 195, "image": "ice-latte-cilekli.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "ice-latte-antepli",
-          "name": "Ice Latte (Antep Fıstıklı)",
-          "price": 210,
-          "image": "ice-latte-antepli.jpg",
+          "id": "ice-latte-antepli", "name": "Ice Latte (Antep Fıstıklı)", "price": 210, "image": "ice-latte-antepli.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "ice-latte-portakallı",
-          "name": "Ice Latte (Portakal Sulu)",
-          "price": 210,
-          "image": "ice-latte-portakallı .jpg",
+          "id": "ice-latte-portakalli", "name": "Ice Latte (Portakal Sulu)", "price": 210, "image": "ice-latte-portakalli.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "ice-latte-karamel",
-          "name": "Ice Latte (Karamelli)",
-          "price": 195,
-          "image": "ice-latte-karamelli.jpg",
+          "id": "ice-latte-karamel", "name": "Ice Latte (Karamelli)", "price": 195, "image": "ice-latte-karamelli.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "ice-latte-vanilya",
-          "name": "Ice Latte (Vanilyalı)",
-          "price": 195,
-          "image": "ice-latte-vanilyali.jpg",
+          "id": "ice-latte-vanilya", "name": "Ice Latte (Vanilyalı)", "price": 195, "image": "ice-latte-vanilyali.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "ice-americano",
-          "name": "Ice Americano",
-          "price": 155,
-          "image": "ice-americano.jpg",
+          "id": "ice-americano", "name": "Ice Americano", "price": 155, "image": "ice-americano.jpg",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "ice-caramel-mac",
-          "name": "Ice Caramel Macchiato",
-          "price": 195,
-          "image": "ice-caramel-macchiato.jpg",
+          "id": "ice-caramel-mac", "name": "Ice Caramel Macchiato", "price": 195, "image": "ice-caramel-macchiato.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "ice-filtre",
-          "name": "Ice Filtre Kahve",
-          "price": 155,
-          "image": "ice-filtre.jpg",
+          "id": "ice-filtre", "name": "Ice Filtre Kahve", "price": 155, "image": "ice-filtre.jpg",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "ice-mocha",
-          "name": "Ice Mocha",
-          "price": 195,
-          "image": "ice-mocha.jpg",
+          "id": "ice-mocha", "name": "Ice Mocha", "price": 195, "image": "ice-mocha.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         },
         {
-          "id": "ice-white-mocha",
-          "name": "Ice White Mocha",
-          "price": 195,
-          "image": "ice-white-mocha.jpg",
+          "id": "ice-white-mocha", "name": "Ice White Mocha", "price": 195, "image": "ice-white-mocha.jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)",
           "intensity": {
-            "soft": {
-              "name": "Yumuşak İçim",
-              "icon": "leaf",
-              "color": "#718A3A"
-            },
-            "strong": {
-              "name": "Yoğun İçim",
-              "icon": "coffee-bean",
-              "color": "#A93627"
-            }
+            "soft":   { "name": "Yumuşak İçim", "color": "#718A3A" },
+            "strong": { "name": "Yoğun İçim",   "color": "#A93627" }
           }
         }
       ]
@@ -413,262 +174,74 @@
     {
       "id": "frozen-milkshake-kokteyl",
       "label": "Frozen Milkshake Kokteyl",
-      "icon": "🥤",
       "image": "kategori-frozen-milkshake-kokteyl.jpg",
       "items": [
-        {
-          "id": "frozen-orman",
-          "name": "Frozen Orman Meyveli",
-          "price": 195,
-          "image": "frozen-orman.jpg"
-        },
-        {
-          "id": "frozen-cilekli",
-          "name": "Frozen Çilekli",
-          "price": 195,
-          "image": "frozen-cilekli.jpg"
-        },
-        {
-          "id": "frozen-mango",
-          "name": "Frozen Mangolu",
-          "price": 195,
-          "image": "frozen-mango.jpg"
-        },
-        {
-          "id": "milkshake-cilekli",
-          "name": "Milkshake Çilekli",
-          "price": 195,
-          "image": "milkshake-cilekli.jpg"
-        },
-        {
-          "id": "milkshake-muzlu",
-          "name": "Milkshake Muzlu",
-          "price": 195,
-          "image": "milkshake-muzlu.jpg"
-        },
-        {
-          "id": "milkshake-cikolatali",
-          "name": "Milkshake Çikolatalı",
-          "price": 195,
-          "image": "milkshake-cikolatali.jpg"
-        },
-        {
-          "id": "soguk-meyve-kokteyl-cilekli",
-          "name": "Soğuk Meyve Kokteyl (Çilekli)",
-          "price": 150,
-          "image": "cilekli-kokteyl.jpg"
-        },
-        {
-          "id": "soguk-meyve-kokteyl-mangolu",
-          "name": "Soğuk Meyve Kokteyl (Mangolu)",
-          "price": 150,
-          "image": "mongolu-kokteyl.jpg"
-        },
-        {
-          "id": "soguk-meyve-kokteyl-orman-meyveli",
-          "name": "Soğuk Meyve Kokteyl (Orman Meyveli)",
-          "price": 150,
-          "image": "orman-meyveli-kokteyl.jpg"
-        }
+        { "id": "frozen-orman", "name": "Frozen Orman Meyveli", "price": 195, "image": "frozen-orman.jpg" },
+        { "id": "frozen-cilekli", "name": "Frozen Çilekli", "price": 195, "image": "frozen-cilekli.jpg" },
+        { "id": "frozen-mango", "name": "Frozen Mangolu", "price": 195, "image": "frozen-mango.jpg" },
+        { "id": "milkshake-cilekli", "name": "Milkshake Çilekli", "price": 195, "image": "milkshake-cilekli.jpg" },
+        { "id": "milkshake-muzlu", "name": "Milkshake Muzlu", "price": 195, "image": "milkshake-muzlu.jpg" },
+        { "id": "milkshake-cikolatali", "name": "Milkshake Çikolatalı", "price": 195, "image": "milkshake-cikolatali.jpg" },
+        { "id": "soguk-meyve-kokteyl-cilekli", "name": "Soğuk Meyve Kokteyl (Çilekli)", "price": 150, "image": "cilekli-kokteyl.jpg" },
+        { "id": "soguk-meyve-kokteyl-mangolu", "name": "Soğuk Meyve Kokteyl (Mangolu)", "price": 150, "image": "mongolu-kokteyl.jpg" },
+        { "id": "soguk-meyve-kokteyl-orman-meyveli", "name": "Soğuk Meyve Kokteyl (Orman Meyveli)", "price": 150, "image": "orman-meyveli-kokteyl.jpg" }
       ]
     },
     {
       "id": "caylar",
       "label": "Çaylar",
-      "icon": "🍵",
       "image": "kategori-cay.jpg",
       "items": [
-        {
-          "id": "cay",
-          "name": "Çay",
-          "price": 40,
-          "image": "cay.jpg"
-        },
-        {
-          "id": "fincan-cay",
-          "name": "Fincan Çay",
-          "price": 70,
-          "image": "fincan-cay.jpg"
-        },
-        {
-          "id": "bitki-cayi",
-          "name": "Bitki Çayları (Adaçayı, Ihlamur, Nane-Limon)",
-          "price": 150,
-          "image": "bitki-cayi.jpg"
-        }
+        { "id": "cay", "name": "Çay", "price": 40, "image": "cay.jpg" },
+        { "id": "fincan-cay", "name": "Fincan Çay", "price": 70, "image": "fincan-cay.jpg" },
+        { "id": "bitki-cayi", "name": "Bitki Çayları (Adaçayı, Ihlamur, Nane-Limon)", "price": 150, "image": "bitki-cayi.jpg" }
+      ]
+    },
+    {
+      "id": "waffle",
+      "label": "Waffle",
+      "image": "kategori-waffle.jpg",
+      "items": [
+        { "id": "waffle-cay", "name": "Waffle Çay", "price": 200, "image": "waffle-cay.jpg" },
+        { "id": "waffle-lim", "name": "Waffle Limonata", "price": 250, "image": "waffle-limonata.jpg" },
+        { "id": "waffle-kahve", "name": "Waffle Latte", "price": 320, "image": "waffle-latte.jpg", "desc": "Americano ve Türk Kahvesinde de geçerlidir!" }
       ]
     },
     {
       "id": "tatlilar",
       "label": "Tatlılar",
-      "icon": "🍰",
       "image": "kategori-tatlilar.jpg",
       "items": [
-        {
-          "id": "waffle-cay",
-          "name": "Waffle Çay",
-          "price": 200,
-          "image": "waffle-cay.jpg"
-        },
-        {
-          "id": "waffle-lim",
-          "name": "Waffle Limonata",
-          "price": 250,
-          "image": "waffle-limonata.jpg"
-        },
-        {
-          "id": "waffle-kahve",
-          "name": "Waffle Latte",
-          "price": 320,
-          "image": "waffle-latte.jpg",
-          "desc": "Americano Ve Türk Kahveside Geçerlidir!"
-        },
-        {
-          "id": "visneli-brownie",
-          "name": "Vişneli Brownie",
-          "price": 285,
-          "image": "visneli-brownie.jpg"
-        },
-        {
-          "id": "magnolia-cilekli",
-          "name": "Çilekli Magnolia",
-          "price": 175,
-          "image": "magnolia-cilekli.jpg"
-        },
-        {
-          "id": "brownie",
-          "name": "Brownie",
-          "price": 265,
-          "image": "brownie.jpg"
-        },
-        {
-          "id": "mozaik-pasta",
-          "name": "Mozaik Pasta",
-          "price": 200,
-          "image": "mozaik-pasta.jpg"
-        },
-        {
-          "id": "snickers-lezzeti",
-          "name": "Snickers Lezzeti",
-          "price": 285,
-          "image": "snickers-lezzeti.jpg"
-        },
-        {
-          "id": "redvelvet",
-          "name": "Redvelvet",
-          "price": 275,
-          "image": "redvelvet.jpg"
-        },
-        {
-          "id": "san-sebastian",
-          "name": "San Sebastian Cheesecake",
-          "price": 290,
-          "image": "san-sebastian.jpg"
-        },
-        {
-          "id": "lotus-cheesecake",
-          "name": "Lotus Cheesecake",
-          "price": 280,
-          "image": "lotus-cheesecake.jpg"
-        },
-        {
-          "id": "lime",
-          "name": "Lime",
-          "price": 280,
-          "image": "lime.jpg"
-        },
-        {
-          "id": "meyveli-rulo-pasta",
-          "name": "Meyveli Rulo Pasta",
-          "price": 280,
-          "image": "meyveli-rulo-pasta.jpg"
-        }
+        { "id": "visneli-brownie", "name": "Vişneli Brownie", "price": 285, "image": "visneli-brownie.jpg" },
+        { "id": "magnolia-cilekli", "name": "Çilekli Magnolia", "price": 175, "image": "magnolia-cilekli.jpg" },
+        { "id": "brownie", "name": "Brownie", "price": 265, "image": "brownie.jpg" },
+        { "id": "mozaik-pasta", "name": "Mozaik Pasta", "price": 200, "image": "mozaik-pasta.jpg" },
+        { "id": "snickers-lezzeti", "name": "Snickers Lezzeti", "price": 285, "image": "snickers-lezzeti.jpg" },
+        { "id": "redvelvet", "name": "Redvelvet", "price": 275, "image": "redvelvet.jpg" },
+        { "id": "san-sebastian", "name": "San Sebastian Cheesecake", "price": 290, "image": "san-sebastian.jpg" },
+        { "id": "lotus-cheesecake", "name": "Lotus Cheesecake", "price": 280, "image": "lotus-cheesecake.jpg" },
+        { "id": "lime", "name": "Lime", "price": 280, "image": "lime.jpg" },
+        { "id": "meyveli-rulo-pasta", "name": "Meyveli Rulo Pasta", "price": 280, "image": "meyveli-rulo-pasta.jpg" }
       ]
     },
     {
       "id": "soguk-icecekler",
       "label": "Soğuk İçecekler",
-      "icon": "🥤",
       "image": "kategori-soguk-icecek.jpg",
       "items": [
-        {
-          "id": "fanta-kutu",
-          "name": "Fanta Kutu",
-          "price": 80,
-          "image": "fanta-kutu.jpg"
-        },
-        {
-          "id": "kola-kutu",
-          "name": "Kola Kutu",
-          "price": 80,
-          "image": "kola-kutu.jpg"
-        },
-        {
-          "id": "kola-cam-sise",
-          "name": "Kola Cam Şişe",
-          "price": 50,
-          "image": "kola-cam-sise.jpg"
-        },
-        {
-          "id": "gazoz",
-          "name": "Gazoz",
-          "price": 50,
-          "image": "gazoz.jpg"
-        },
-        {
-          "id": "meyveli-soda",
-          "name": "Meyveli Soda(Limonlu-Karpuz Çilek)",
-          "price": 60,
-          "image": "meyveli-soda.jpg"
-        },
-        {
-          "id": "Meyveli2-soda",
-          "name": "Meyveli Soda(Greyfurt Yaban Mersini-Karadut-Mango Ananas-Kivi Limon)",
-          "price": 60,
-          "image": "meyveli2-soda.jpg"
-        },
-        {
-          "id": "premium-sade-soda",
-          "name": "Premium Sade Soda",
-          "price": 75,
-          "image": "premium-sade-soda.jpg"
-        },
-        {
-          "id": "churchill",
-          "name": "Churchill",
-          "price": 100,
-          "image": "churchill.jpg"
-        },
-        {
-          "id": "redbull",
-          "name": "Redbull",
-          "price": 100,
-          "image": "Redbull.jpg"
-        },
-        {
-          "id": "limonata",
-          "name": "Limonata",
-          "price": 85,
-          "image": "limonata.jpg"
-        },
-        {
-          "id": "cilekli-limonata",
-          "name": "Çilekli Limonata",
-          "price": 100,
-          "image": "cilekli-limonata.jpg"
-        },
-        {
-          "id": "bardak-su",
-          "name": "Bardak Su",
-          "price": 10,
-          "image": "bardak-su.jpg"
-        },
-        {
-          "id": "su-buyuk",
-          "name": "Su (Büyük)",
-          "price": 30,
-          "image": "su.jpg"
-        }
+        { "id": "fanta-kutu", "name": "Fanta Kutu", "price": 80, "image": "fanta-kutu.jpg" },
+        { "id": "kola-kutu", "name": "Kola Kutu", "price": 80, "image": "kola-kutu.jpg" },
+        { "id": "kola-cam-sise", "name": "Kola Cam Şişe", "price": 50, "image": "kola-cam-sise.jpg" },
+        { "id": "gazoz", "name": "Gazoz", "price": 50, "image": "gazoz.jpg" },
+        { "id": "meyveli-soda", "name": "Meyveli Soda (Limonlu - Karpuz Çilek)", "price": 60, "image": "meyveli-soda.jpg" },
+        { "id": "meyveli2-soda", "name": "Meyveli Soda (Greyfurt Yaban Mersini - Karadut - Mango Ananas - Kivi Limon)", "price": 60, "image": "meyveli2-soda.jpg" },
+        { "id": "premium-sade-soda", "name": "Premium Sade Soda", "price": 75, "image": "premium-sade-soda.jpg" },
+        { "id": "churchill", "name": "Churchill", "price": 100, "image": "churchill.jpg" },
+        { "id": "redbull", "name": "Redbull", "price": 100, "image": "redbull.jpg" },
+        { "id": "limonata", "name": "Limonata", "price": 85, "image": "limonata.jpg" },
+        { "id": "cilekli-limonata", "name": "Çilekli Limonata", "price": 100, "image": "cilekli-limonata.jpg" },
+        { "id": "bardak-su", "name": "Bardak Su", "price": 10, "image": "bardak-su.jpg" },
+        { "id": "su-buyuk", "name": "Su (Büyük)", "price": 30, "image": "su.jpg" }
       ]
     }
   ]
