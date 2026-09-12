@@ -176,12 +176,12 @@
       "label": "Frozen Milkshake Kokteyl",
       "image": "kategori-frozen-milkshake-kokteyl.jpg",
       "items": [
-        { "id": "frozen-orman", "name": "Frozen Orman Meyveli", "price": 195, "image": "frozen-orman.jpg" },
-        { "id": "frozen-cilekli", "name": "Frozen Çilekli", "price": 195, "image": "frozen-cilekli.jpg" },
-        { "id": "frozen-mango", "name": "Frozen Mangolu", "price": 195, "image": "frozen-mango.jpg" },
-        { "id": "milkshake-cilekli", "name": "Milkshake Çilekli", "price": 195, "image": "milkshake-cilekli.jpg" },
-        { "id": "milkshake-muzlu", "name": "Milkshake Muzlu", "price": 195, "image": "milkshake-muzlu.jpg" },
-        { "id": "milkshake-cikolatali", "name": "Milkshake Çikolatalı", "price": 195, "image": "milkshake-cikolatali.jpg" },
+        { "id": "frozen-orman", "name": "Frozen Orman Meyveli", "price": 200, "image": "frozen-orman.jpg" },
+        { "id": "frozen-cilekli", "name": "Frozen Çilekli", "price": 200, "image": "frozen-cilekli.jpg" },
+        { "id": "frozen-mango", "name": "Frozen Mangolu", "price": 200, "image": "frozen-mango.jpg" },
+        { "id": "milkshake-cilekli", "name": "Milkshake Çilekli", "price": 200, "image": "milkshake-cilekli.jpg" },
+        { "id": "milkshake-muzlu", "name": "Milkshake Muzlu", "price": 200, "image": "milkshake-muzlu.jpg" },
+        { "id": "milkshake-cikolatali", "name": "Milkshake Çikolatalı", "price": 200, "image": "milkshake-cikolatali.jpg" },
         { "id": "soguk-meyve-kokteyl-cilekli", "name": "Soğuk Meyve Kokteyl (Çilekli)", "price": 150, "image": "cilekli-kokteyl.jpg" },
         { "id": "soguk-meyve-kokteyl-mangolu", "name": "Soğuk Meyve Kokteyl (Mangolu)", "price": 150, "image": "mongolu-kokteyl.jpg" },
         { "id": "soguk-meyve-kokteyl-orman-meyveli", "name": "Soğuk Meyve Kokteyl (Orman Meyveli)", "price": 150, "image": "orman-meyveli-kokteyl.jpg" }
