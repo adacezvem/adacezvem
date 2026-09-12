@@ -310,14 +310,14 @@
           "id": "waffle-lim",
           "name": "Waffle Limonata",
           "price": 250,
-          "image": "waffle-limonata.jpg",
-          "desc": "Americano Ve Türk Kahveside Geçerlidir!"
+          "image": "waffle-limonata.jpg"
         },
         {
           "id": "waffle-kahve",
           "name": "Waffle Latte",
           "price": 320,
-          "image": "waffle-latte.jpg"
+          "image": "waffle-latte.jpg",
+          "desc": "Americano Ve Türk Kahveside Geçerlidir!"
         },
         {
           "id": "visneli-brownie",
