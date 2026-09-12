@@ -416,7 +416,9 @@ body {
   border-radius: 12px;
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: #fff;
+  background: #fff;
+  border: 1.5px solid currentColor;
+  color: var(--warm-brown);
 }
 
 /* ═══════════════════════════════
@@ -772,7 +774,7 @@ function renderSections() {
           Object.keys(item.intensity).forEach(key => {
             const opt = item.intensity[key];
             intensityHtml += `
-              <span class="intensity-badge" style="background-color: ${opt.color || '#8B5A35'};">
+              <span class="intensity-badge" style="color: ${opt.color || '#8B5A35'};">
                 ${opt.name}
               </span>
             `;
