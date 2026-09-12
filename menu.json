@@ -163,7 +163,19 @@
           "id": "ice-americano",
           "name": "Ice Americano",
           "price": 155,
-          "image": "ice-americano.jpg"
+          "image": "ice-americano.jpg",
+          "intensity": {
+            "soft": {
+              "name": "Yumuşak İçim",
+              "icon": "leaf",
+              "color": "#718A3A"
+            },
+            "strong": {
+              "name": "Yoğun İçim",
+              "icon": "coffee-bean",
+              "color": "#A93627"
+            }
+          }
         },
         {
           "id": "ice-caramel-mac",
