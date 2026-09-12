@@ -236,11 +236,11 @@
         { "id": "sade-soda", "name": "Sade Soda (Beypazarı)", "price": 50, "image": "sade-soda.jpg" },
         { "id": "meyveli-soda", "name": "Meyveli Soda (Limonlu - Karpuz Çilek)", "price": 60, "image": "meyveli-soda.jpg" },
         { "id": "meyveli2-soda", "name": "Meyveli Soda (Greyfurt Yaban Mersini - Karadut - Mango Ananas - Kivi Limon)", "price": 60, "image": "meyveli2-soda.jpg" },
-        { "id": "premium-sade-soda", "name": "Premium Sade Soda", "price": 75, "image": "premium-sade-soda.jpg" },
+        { "id": "premium-sade-soda", "name": "Uludağ Premium Sade Soda", "price": 75, "image": "premium-sade-soda.jpg" },
         { "id": "churchill", "name": "Churchill", "price": 100, "image": "churchill.jpg" },
         { "id": "redbull", "name": "Redbull", "price": 100, "image": "redbull.jpg" },
-        { "id": "limonata", "name": "Limonata", "price": 85, "image": "limonata.jpg" },
-        { "id": "cilekli-limonata", "name": "Çilekli Limonata", "price": 100, "image": "cilekli-limonata.jpg" },
+        { "id": "limonata", "name": "Limonata", "price": 100, "image": "limonata.jpg" },
+        { "id": "cilekli-limonata", "name": "Çilekli Limonata", "price": 120, "image": "cilekli-limonata.jpg" },
         { "id": "bardak-su", "name": "Bardak Su", "price": 10, "image": "bardak-su.jpg" },
         { "id": "su-buyuk", "name": "Su (Büyük)", "price": 30, "image": "su.jpg" }
       ]
