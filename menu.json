@@ -233,6 +233,7 @@
         { "id": "kola-kutu", "name": "Kola Kutu", "price": 80, "image": "kola-kutu.jpg" },
         { "id": "kola-cam-sise", "name": "Kola Cam Şişe", "price": 50, "image": "kola-cam-sise.jpg" },
         { "id": "gazoz", "name": "Gazoz", "price": 50, "image": "gazoz.jpg" },
+        { "id": "sade-soda", "name": "Sade Soda (Beypazarı)", "price": 50, "image": "sade-soda.jpg" },
         { "id": "meyveli-soda", "name": "Meyveli Soda (Limonlu - Karpuz Çilek)", "price": 60, "image": "meyveli-soda.jpg" },
         { "id": "meyveli2-soda", "name": "Meyveli Soda (Greyfurt Yaban Mersini - Karadut - Mango Ananas - Kivi Limon)", "price": 60, "image": "meyveli2-soda.jpg" },
         { "id": "premium-sade-soda", "name": "Premium Sade Soda", "price": 75, "image": "premium-sade-soda.jpg" },
