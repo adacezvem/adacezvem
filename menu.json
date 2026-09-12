@@ -20,13 +20,15 @@
           "id": "dibek-kahvesi",
           "name": "Dibek Kahvesi",
           "price": 120,
-          "image": "dibek-kahvesi.jpg"
+          "image": "dibek-kahvesi.jpg",
+          "desc": "Telveli kahve, lokum ve su ile servis edilir"
         },
         {
           "id": "menengic-kahvesi",
           "name": "Menengiç Kahvesi",
           "price": 120,
-          "image": "menengic-kahvesi.jpg"
+          "image": "menengic-kahvesi.jpg",
+          "desc": "Telveli kahve, lokum ve su ile servis edilir"
         },
         {
           "id": "bosna-kahve",
@@ -127,6 +129,20 @@
           "name": "Ice Latte (Çilekli)",
           "price": 195,
           "image": "ice-latte-cilekli.jpg",
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+        },
+        {
+          "id": "ice-latte-antepli",
+          "name": "Ice Latte (Antep Fıstıklı)",
+          "price": 210,
+          "image": "ice-latte-antepli.jpg",
+          "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
+        },
+        {
+          "id": "ice-latte-portakallı",
+          "name": "Ice Latte (Portakal Sulu)",
+          "price": 210,
+          "image": "ice-latte-portakallı .jpg",
           "desc": "Tercihe göre laktozsuz süt seçeneğiyle (+15 ₺)"
         },
         {
@@ -273,6 +289,25 @@
       "image": "kategori-tatlilar.jpg",
       "items": [
         {
+          "id": "waffle-cay",
+          "name": "Waffle Çay",
+          "price": 200,
+          "image": "waffle-cay.jpg"
+        },
+        {
+          "id": "waffle-lim",
+          "name": "Waffle Limonata",
+          "price": 250,
+          "image": "waffle-limonata.jpg",
+          "desc": "Americano Ve Türk Kahveside Geçerlidir!"
+        },
+        {
+          "id": "waffle-kahve",
+          "name": "Waffle Latte",
+          "price": 320,
+          "image": "waffle-latte.jpg"
+        },
+        {
           "id": "visneli-brownie",
           "name": "Vişneli Brownie",
           "price": 285,
@@ -281,14 +316,8 @@
         {
           "id": "magnolia-cilekli",
           "name": "Çilekli Magnolia",
-          "price": 145,
+          "price": 175,
           "image": "magnolia-cilekli.jpg"
-        },
-        {
-          "id": "citir-cezvem",
-          "name": "Çıtır Cezvem",
-          "price": 250,
-          "image": "citir-cezvem.jpg"
         },
         {
           "id": "brownie",
@@ -315,12 +344,6 @@
           "image": "redvelvet.jpg"
         },
         {
-          "id": "ibiza",
-          "name": "İbiza",
-          "price": 280,
-          "image": "ibiza.jpg"
-        },
-        {
           "id": "san-sebastian",
           "name": "San Sebastian Cheesecake",
           "price": 290,
@@ -333,24 +356,6 @@
           "image": "lotus-cheesecake.jpg"
         },
         {
-          "id": "limonlu-cheesecake",
-          "name": "Limonlu Cheesecake",
-          "price": 280,
-          "image": "limon-cheesecake.jpg"
-        },
-        {
-          "id": "ada-gold",
-          "name": "Ada Gold",
-          "price": 285,
-          "image": "ada-gold.jpg"
-        },
-        {
-          "id": "uludag",
-          "name": "Uludağ",
-          "price": 280,
-          "image": "uludag.jpg"
-        },
-        {
           "id": "lime",
           "name": "Lime",
           "price": 280,
@@ -361,12 +366,6 @@
           "name": "Meyveli Rulo Pasta",
           "price": 280,
           "image": "meyveli-rulo-pasta.jpg"
-        },
-        {
-          "id": "budapeste",
-          "name": "Budapeşte",
-          "price": 280,
-          "image": "budapeste.jpg"
         }
       ]
     },
@@ -403,13 +402,13 @@
         {
           "id": "meyveli-soda",
           "name": "Meyveli Soda(Limonlu-Karpuz Çilek)",
-          "price": 50,
+          "price": 60,
           "image": "meyveli-soda.jpg"
         },
         {
           "id": "Meyveli2-soda",
           "name": "Meyveli Soda(Greyfurt Yaban Mersini-Karadut-Mango Ananas-Kivi Limon)",
-          "price": 50,
+          "price": 60,
           "image": "meyveli2-soda.jpg"
         },
         {
